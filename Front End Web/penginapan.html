@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- custom CSS -->
-    <link rel="stylesheet" href="CSS/detailwisata.css" />
+    <link rel="stylesheet" href="CSS/penginapan.css" />
 
-    <title>Tempat Wisata | MadiunWisata</title>
+    <title>Penginapan | MadiunWisata</title>
   </head>
 
   <body>
@@ -36,10 +36,10 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="tempatwisata.html">Tempat Wisata</a>
+              <a class="nav-link" href="tempatwisata.html">Tempat Wisata</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="penginapan.html">Penginapan</a>
+              <a class="nav-link active" href="penginapan.html">Penginapan</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Lapak UMKM</a>
@@ -53,55 +53,33 @@
     </nav>
     <!-- Akhir Navbar -->
 
-    <!--Artikel wisata  -->
-    <div class="container custom-card artikel">
-      <h2 class="text-center">Taman Sumber Wangi</h2>
-      <img class="mx-auto d-block" src="image/sumberwangi/marlion2.jpg" alt="sumber wangi" />
-      <p class="text-center">
-        Taman Sumber Wangi terletak di Jl Pahlawan Kota Madiun tepatnya disamping Balai Kota Madiun. di Taman Sumber Wangi terdapat Replika Patung Marlion yang merupakan ikon dari Singapura. Di sekitar Taman Juga terdapat tempat duduk bagi
-        para wisatawan. Di sisi taman ada pula foto-foto ikon kota Madiun yang dipajang secara estetik. Ada pula bangunan galeri 6 negara di belakang patung marlion yang berisi lukisan-lukisan, foto, serta beberapa ikon khas dari
-        negara-negara tersebut
-      </p>
-      <div class="d-flex justify-content-center">
-        <a class="cta" href="#">Lokasi</a>
+    <!-- Bagian Atas -->
+    <div class="container atas">
+      <div class="row">
+        <!-- Penginapan Atas kiri -->
+        <div class="col-md-6">
+          <div class="custom-card p-md-4">
+            <h6>Anda memiliki penginapan di Kota Madiun?</h6>
+            <a class="linkhijau" href="">Promosikan</a>
+            <a class="linkabu ms-3" href="">Login</a>
+          </div>
+        </div>
+        <!-- Akhir Penginapan Atas kiri -->
+
+        <!-- Pencarian Atas kanan -->
+        <form class="col-md-6 d-flex align-items-center pencarian" method="POST">
+          <input class="form-control form-control-lg-2" type="text" placeholder="Temukan Penginapan di Madiun" aria-label="default input example" />
+          <!-- Button cari -->
+          <button type="button" class="btn cta">Cari</button>
+        </form>
+        <!-- Akhir Pencarian Atas Kanan -->
       </div>
     </div>
-    <!-- Akhir Artikel Wisata -->
+    <!-- Akhir Bagian Atas -->
 
-    <!-- Galeri Foto -->
-    <div class="container galeri">
-      <div class="row judul">
-        <h3>Galeri Foto</h3>
-      </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-between">
-        <!-- foto 1 -->
-        <div class="col-md-4">
-          <img src="image/sumberwangi/marlion1.jpg" alt="sumber wangi" />
-        </div>
-        <!-- foto 2 -->
-        <div class="col-md-4">
-          <img src="image/sumberwangi/galeri1.jpg" alt="sumber wangi" />
-        </div>
-        <!-- foto 3 -->
-        <div class="col-md-4">
-          <img src="image/sumberwangi/galeri2.jpg" alt="sumber wangi" />
-        </div>
-        <!-- foto 4 -->
-        <div class="col-md-4">
-          <img src="image/sumberwangi/info1.jpg" alt="sumber wangi" />
-        </div>
-        <!-- foto 5 -->
-        <div class="col-md-4">
-          <img src="image/sumberwangi/info2.jpg" alt="sumber wangi" />
-        </div>
-        <!-- foto 6 -->
-        <div class="col-md-4">
-          <img src="image/sumberwangi/IMG_20210427_084851_3.jpg" alt="sumber wangi" />
-        </div>
-      </div>
-    </div>
-
-    <!-- Akhir Galeri Foto -->
+    <!-- Semua Penginapan -->
+    <div class="container"></div>
+    <!-- Akhir Semua Penginapan -->
 
     <!-- Footer -->
     <footer class="background">
