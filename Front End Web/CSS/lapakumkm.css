@@ -56,6 +56,12 @@ input[type='text'] {
   border-color: #196046;
 }
 
+textarea,
+select,
+input {
+  border-color: #196046 !important;
+}
+
 /* tombol cta */
 .cta {
   font-family: 'Krona One', sans-serif;
