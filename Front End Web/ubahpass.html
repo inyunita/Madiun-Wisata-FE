@@ -62,9 +62,9 @@
             <p>Lodger</p>
           </div>
           <div class="list-group custom-card">
-            <a href="#" class="list-group-item list-group-item-action list-group-item-dark" aria-current="true"><i class="bi bi-house-fill"></i> Penginapan Saya </a>
+            <a href="#" class="list-group-item list-group-item-action" aria-current="true"><i class="bi bi-house-fill"></i> Penginapan Saya </a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-gear-fill"></i> Pengaturan Akun</a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-shield-lock-fill"></i> Ganti Password</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-dark"><i class="bi bi-shield-lock-fill"></i> Ganti Password</a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-box-arrow-right"></i> Logout</a>
           </div>
         </div>
@@ -72,44 +72,21 @@
         <div class="kanan col-md-8">
           <div class="custom-card p-5">
             <form class="row g-3">
-              <div class="col-md-6">
-                <label for="name" class="form-label">Nama Penginapan</label>
-                <input type="text" class="form-control" id="name" />
+              <div class="col-md-12">
+                <label for="password-old" class="form-label">Password Lama</label>
+                <input type="password" class="form-control" id="password-old" />
               </div>
-              <div class="col-md-6">
-                <label for="harga" class="form-label">Harga</label>
-                <input type="text" class="form-control" id="harga" />
+              <div class="col-md-12">
+                <label for="password-new" class="form-label">Password Baru</label>
+                <input type="password" class="form-control" id="password-new" />
               </div>
-              <div class="col-md-6">
-                <label for="Lokasi" class="form-label">Lokasi Penginapan</label>
-                <input type="text" class="form-control" id="Lokasi" />
-              </div>
-              <div class="col-md-6">
-                <label for="Maps" class="form-label">Link Maps</label>
-                <input type="text" class="form-control" id="Maps" />
-              </div>
-              <div class="col-12">
-                <label for="spesifikasi" class="form-label">Spesifikasi</label>
-                <textarea name="Spesifikasi" id="spesifikasi" cols="100%" rows="5" class="form-control"></textarea>
+              <div class="col-md-12">
+                <label for="konfirmasi-password" class="form-label">Konfirmasi Password Baru</label>
+                <input type="password" class="form-control" id="konfirmasi-password" />
               </div>
 
               <div class="col-12">
-                <label for="formFile" class="form-label">Foto Depan</label>
-                <input class="form-control" type="file" id="formFile" />
-              </div>
-              <div class="col-12">
-                <label for="formFile" class="form-label">Foto Kamar</label>
-                <input class="form-control" type="file" id="formFile" />
-              </div>
-              <div class="col-12">
-                <label for="formFile" class="form-label">Foto Kamar Mandi</label>
-                <input class="form-control" type="file" id="formFile" />
-              </div>
-
-              <div class="col-12">
-                <button type="submit" class="btn cta-sm">Tambah</button>
-                <button type="submit" class="btn btn-primary">Update</button>
-                <button type="submit" class="btn btn-danger">Delete</button>
+                <button type="submit" class="btn cta-sm">Submit</button>
               </div>
             </form>
           </div>

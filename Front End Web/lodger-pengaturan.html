@@ -62,8 +62,8 @@
             <p>Lodger</p>
           </div>
           <div class="list-group custom-card">
-            <a href="#" class="list-group-item list-group-item-action list-group-item-dark" aria-current="true"><i class="bi bi-house-fill"></i> Penginapan Saya </a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-gear-fill"></i> Pengaturan Akun</a>
+            <a href="#" class="list-group-item list-group-item-action" aria-current="true"><i class="bi bi-house-fill"></i> Penginapan Saya </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-dark"><i class="bi bi-gear-fill"></i> Pengaturan Akun</a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-shield-lock-fill"></i> Ganti Password</a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-box-arrow-right"></i> Logout</a>
           </div>
@@ -73,43 +73,39 @@
           <div class="custom-card p-5">
             <form class="row g-3">
               <div class="col-md-6">
-                <label for="name" class="form-label">Nama Penginapan</label>
+                <label for="name" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="name" />
               </div>
               <div class="col-md-6">
-                <label for="harga" class="form-label">Harga</label>
-                <input type="text" class="form-control" id="harga" />
-              </div>
-              <div class="col-md-6">
-                <label for="Lokasi" class="form-label">Lokasi Penginapan</label>
-                <input type="text" class="form-control" id="Lokasi" />
-              </div>
-              <div class="col-md-6">
-                <label for="Maps" class="form-label">Link Maps</label>
-                <input type="text" class="form-control" id="Maps" />
+                <label for="NIK" class="form-label">NIK</label>
+                <input type="text" class="form-control" id="NIK" />
               </div>
               <div class="col-12">
-                <label for="spesifikasi" class="form-label">Spesifikasi</label>
-                <textarea name="Spesifikasi" id="spesifikasi" cols="100%" rows="5" class="form-control"></textarea>
+                <label for="inputAddress" class="form-label">Alamat</label>
+                <textarea name="address" id="address" cols="100%" rows="5" class="form-control"></textarea>
+              </div>
+              <div class="col-md-4">
+                <label for="jeniskelamin" class="form-label">Jenis Kelamin</label>
+                <select id="jeniskelamin" class="form-select">
+                  <option selected>Laki-Laki</option>
+                  <option>Perempuan</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="name" class="form-label">No WA</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="col-md-4">
+                <label for="NIK" class="form-label">Email</label>
+                <input type="text" class="form-control" id="NIK" />
+              </div>
+              <div class="col-12">
+                <label for="formFile" class="form-label">Scan KTP (jpg)</label>
+                <input class="form-control" type="file" id="formFile" />
               </div>
 
               <div class="col-12">
-                <label for="formFile" class="form-label">Foto Depan</label>
-                <input class="form-control" type="file" id="formFile" />
-              </div>
-              <div class="col-12">
-                <label for="formFile" class="form-label">Foto Kamar</label>
-                <input class="form-control" type="file" id="formFile" />
-              </div>
-              <div class="col-12">
-                <label for="formFile" class="form-label">Foto Kamar Mandi</label>
-                <input class="form-control" type="file" id="formFile" />
-              </div>
-
-              <div class="col-12">
-                <button type="submit" class="btn cta-sm">Tambah</button>
-                <button type="submit" class="btn btn-primary">Update</button>
-                <button type="submit" class="btn btn-danger">Delete</button>
+                <button type="submit" class="btn cta-sm">Submit</button>
               </div>
             </form>
           </div>
