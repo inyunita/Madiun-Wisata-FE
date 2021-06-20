@@ -154,6 +154,9 @@ table {
   font-size: 14px;
   color: #616161;
 }
+label {
+  font-family: 'Poppins', sans-serif;
+}
 
 /* merubah font place holder */
 ::-webkit-input-placeholder {
