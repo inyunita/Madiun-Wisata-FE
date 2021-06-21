@@ -158,6 +158,11 @@ label {
   font-family: 'Poppins', sans-serif;
 }
 
+.from-crud img {
+  width: 80%;
+ 
+}
+
 /* merubah font place holder */
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
