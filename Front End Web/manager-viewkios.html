@@ -17,7 +17,7 @@
     <!-- custom CSS -->
     <link rel="stylesheet" href="CSS/crudpage.css" />
 
-    <title>Manager Lapak | MadiunWisata</title>
+    <title>Lodger | MadiunWisata</title>
   </head>
 
   <body>
@@ -72,64 +72,32 @@
         <div class="kanan col-md-8">
           <div class="custom-card p-5">
             <div class="row">
-              <!-- Pencarian -->
-              <form class="col-md-7 d-flex align-items-center pencarian" method="POST">
-                <input class="form-control form-control-lg-2" type="text" placeholder="Temukan Kios" aria-label="default input example" />
-                <!-- Button cari -->
-                <button type="button" class="btn cta-sm">Cari</button>
-              </form>
-
-              <form class="col-md-5 d-flex align-items-center" action="" method="POST">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Filter Status</option>
-                  <option value="1">Sudah ACC</option>
-                  <option value="2">Belum ACC</option>
-                </select>
-              </form>
+              <h5>Identitas Pemilik Kios</h5>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p>NIK</p>
+                    <p>Nama</p>
+                    <p>Alamat</p>
+                    <p>Jenis Kelamin</p>
+                    <p>No WA</p>
+                    <p>Email</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>35770147060001</p>
+                    <p>Amirudin</p>
+                    <p>JL gatau apa</p>
+                    <p>Laki-laki</p>
+                    <p>088217514426</p>
+                    <p>amirudd99@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <p>Scan KTP</p>
+                <img src="image/ktp.jpg" class="img-fluid" alt="KTP" />
+              </div>
             </div>
-
-            <div class="belum-ada-data">
-              <!-- JIKA BELUM ADA DATA -->
-              <figure>
-                <img style="width: 80%" src="image/no-data.jpg" alt="no-data" />
-                <figcaption style="font-size: 5pt"><a href="https://www.freepik.com/free-photos-vectors/data">Data vector created by stories - www.freepik.com</a></figcaption>
-              </figure>
-            </div>
-
-            <!-- JIKA SUDAH ADA DATA -->
-
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">No Kios </th>
-                  <th scope="col">Nama Pemilik</th>
-                  <th scope="col">Nama Kios</th>
-                  <th scope="col">Status</th>
-                  <th scope="col">Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>01</td>
-                  <td>Amirudin</td>
-                  <td>Depot Enak</td>
-                  <td>Sudah di-ACC</td>
-                  <td><a href="l">view</a></td>
-                </tr>
-
-                <tr>
-                    <th scope="row">2</th>
-                    <td>02</td>
-                    <td>Amir</td>
-                    <td>Depot Enak Banget</td>
-                    <td>Belum di-ACC</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
       </div>
