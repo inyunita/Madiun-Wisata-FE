@@ -158,9 +158,8 @@ label {
   font-family: 'Poppins', sans-serif;
 }
 
-.from-crud img {
-  width: 80%;
- 
+.form-crud img {
+  width: 60%;
 }
 
 /* merubah font place holder */
