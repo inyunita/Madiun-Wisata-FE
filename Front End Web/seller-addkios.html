@@ -17,7 +17,7 @@
     <!-- custom CSS -->
     <link rel="stylesheet" href="CSS/crudpage.css" />
 
-    <title>Lodger | MadiunWisata</title>
+    <title>Seller | MadiunWisata</title>
   </head>
 
   <body>
@@ -58,12 +58,12 @@
       <div class="row justify-content-between">
         <div class="kiri col-md-4">
           <div class="custom-card p-3 pb-1">
-            <h6 class="text-break">Indah Yunita</h6>
-            <p>Lodger</p>
+            <h6 class="text-break">Indah Yunitaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h6>
+            <p>Seller</p>
           </div>
           <div class="list-group custom-card">
-            <a href="#" class="list-group-item list-group-item-action" aria-current="true"><i class="bi bi-house-fill"></i> Penginapan Saya </a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-dark"><i class="bi bi-gear-fill"></i> Pengaturan Akun</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-dark" aria-current="true"><i class="bi bi-house-fill"></i> Kios Saya </a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-gear-fill"></i> Pengaturan Akun</a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-shield-lock-fill"></i> Ganti Password</a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-box-arrow-right"></i> Logout</a>
           </div>
@@ -72,44 +72,54 @@
         <div class="kanan col-md-8">
           <div class="custom-card p-5">
             <div class="d-flex justify-content-end">
-                <a class="cta-sm" href="#">Back</a>
-              </div>
+              <a class="cta-sm" href="#">Back</a>
+            </div>
             <form class="form-crud row g-3">
-              <div class="col-md-6">
-                <label for="name" class="form-label">Nama Lengkap</label>
+              <div class="col-md-12">
+                <label for="name" class="form-label">Nama Kios</label>
                 <input type="text" class="form-control" id="name" />
               </div>
-              <div class="col-md-6">
-                <label for="NIK" class="form-label">NIK</label>
-                <input type="text" class="form-control" id="NIK" />
-              </div>
-              <div class="col-12">
-                <label for="inputAddress" class="form-label">Alamat</label>
-                <textarea name="address" id="address" cols="100%" rows="5" class="form-control"></textarea>
+              <div class="col-md-4">
+                <label for="Lokasi" class="form-label">Menu</label>
+                <input type="text" class="form-control" id="Lokasi" />
               </div>
               <div class="col-md-4">
-                <label for="jeniskelamin" class="form-label">Jenis Kelamin</label>
-                <select id="jeniskelamin" class="form-select">
-                  <option selected>Laki-Laki</option>
-                  <option>Perempuan</option>
+                <label for="harga" class="form-label">Harga</label>
+                <input type="text" class="form-control" id="harga" />
+              </div>
+              <div class="col-md-4">
+                <label for="jenis" class="form-label">Jenis </label>
+                <select id="jenis" class="form-select">
+                  <option selected>Makanan</option>
+                  <option>Minuman</option>
                 </select>
               </div>
-              <div class="col-md-4">
-                <label for="name" class="form-label">No WA</label>
-                <input type="text" class="form-control" id="name" />
+              <div class="col-12">
+                <button type="submit" class="btn btn-success">Update Menu</button>
+                <button type="submit" class="btn btn-danger">Delete Menu</button>
               </div>
               <div class="col-md-4">
-                <label for="NIK" class="form-label">Email</label>
-                <input type="text" class="form-control" id="NIK" />
+                <label for="Lokasi" class="form-label">Menu</label>
+                <input type="text" class="form-control" id="Lokasi" />
+              </div>
+              <div class="col-md-4">
+                <label for="harga" class="form-label">Harga</label>
+                <input type="text" class="form-control" id="harga" />
+              </div>
+              <div class="col-md-4">
+                <label for="jenis" class="form-label">Jenis </label>
+                <select id="jenis" class="form-select">
+                  <option selected>Makanan</option>
+                  <option>Minuman</option>
+                </select>
               </div>
               <div class="col-12">
-                <label for="formFile" class="form-label">Scan KTP (jpg)</label>
-                <input class="form-control" type="file" id="formFile" />
-                <img class="mt-3 mb-5" src="image/ktp.jpg" alt="penginapan" />
+                <button type="submit" class="btn btn-primary">Tambah Menu</button>
               </div>
 
               <div class="col-12">
                 <button type="submit" class="btn cta-sm">Submit</button>
+                <button type="submit" class="btn btn-primary">Update Data Kios</button>
               </div>
             </form>
           </div>
