@@ -10,9 +10,8 @@
 
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
-    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome.min.css"/>
-    
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome.min.css" />
 
     <!-- AOS Animasi -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -68,11 +67,11 @@
             <p>Admin</p>
           </div>
           <div class="list-group custom-card">
-            <a href="#" class="list-group-item list-group-item-action list-group-item-dark" aria-current="true"><i class="bi bi-tree-fill"></i> Tempat Wisata </a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-house-door-fill"></i> </i> Penginapan</a>
+            <a href="#" class="list-group-item list-group-item-action" aria-current="true"><i class="bi bi-tree-fill"></i> Tempat Wisata </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-dark"><i class="bi bi-house-door-fill"></i> Penginapan</a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-cart-fill"></i> Lapak UMKM Kelurahan</a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-people-fill"></i> Manager Lapak UMKM</a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-bus"></i></i> Mabour</a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-bus"></i> Mabour</a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-shield-lock-fill"></i> Ganti Password</a>
             <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-box-arrow-right"></i> Logout</a>
           </div>
@@ -82,16 +81,21 @@
           <div class="custom-card p-5">
             <div class="row">
               <!-- Pencarian -->
-              <form class="col-md-12 d-flex align-items-center pencarian" method="POST">
-                <input class="form-control form-control-lg-2" type="text" placeholder="Temukan Tempat Wisata" aria-label="default input example" />
+              <form class="col-md-7 d-flex align-items-center pencarian" method="POST">
+                <input class="form-control form-control-lg-2" type="text" placeholder="Temukan Penginapan" aria-label="default input example" />
                 <!-- Button cari -->
                 <button type="button" class="btn cta-sm">Cari</button>
               </form>
+
+              <form class="col-md-5 d-flex align-items-center" action="" method="POST">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Filter Status</option>
+                  <option value="1">Disetujui</option>
+                  <option value="2">Ditolak</option>
+                  <option value="2">Menunggu persetujuan</option>
+                </select>
+              </form>
             </div>
-            <div class="d-flex">
-                <a class="cta-sm mt-3" href="tambahpenginapan.html">Tambah Tempat Wisata</a>
-            </div>
-            
 
             <div class="belum-ada-data">
               <!-- JIKA BELUM ADA DATA -->
@@ -107,25 +111,37 @@
               <thead>
                 <tr>
                   <th scope="col">#</th>
-                  <th scope="col">Tempat Wisata </th>
+                  <th scope="col">Nama Penginapan</th>
+                  <th scope="col">Nama Pemilik</th>
                   <th scope="col">Lokasi</th>
+                  <th scope="col">Status</th>
                   <th scope="col">Action</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">1</th>
-                  <td>Pahlawan Street Center</td>
+                  <td>Login Homestay</td>
+                  <td>Anita</td>
                   <td>Jl pahlawan</td>
+                  <td>Disetujui</td>
                   <td><a href="">view</a></td>
                 </tr>
-
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Pahlawan Street Center</td>
-                    <td>Jl pahlawan</td>
-                    <td><a href="">view</a></td>
+                  <th scope="row">1</th>
+                  <td>Login Homestay</td>
+                  <td>Anita</td>
+                  <td>Jl pahlawan</td>
+                  <td>Ditolak</td>
+                  <td><a href="">view</a></td>
                 </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Login Homestay</td>
+                  <td>Anita</td>
+                  <td>Jl pahlawan</td>
+                  <td>Menunggu Persetujuan</td>
+                  <td><a href="">view</a></td>
                 </tr>
               </tbody>
             </table>
