@@ -160,7 +160,9 @@ table {
   font-size: 16px;
   color: #616161;
 }
-label {
+label,
+option,
+.form-select {
   font-family: 'Poppins', sans-serif;
 }
 
