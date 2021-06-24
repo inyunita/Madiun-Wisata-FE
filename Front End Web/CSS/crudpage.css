@@ -168,6 +168,14 @@ label {
   width: 60%;
 }
 
+.form-crud p {
+  line-height: normal;
+}
+
+button {
+  display: inline !important;
+}
+
 /* merubah font place holder */
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
