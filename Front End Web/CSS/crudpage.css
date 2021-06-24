@@ -189,10 +189,6 @@ option,
   line-height: normal;
 }
 
-button {
-  display: inline !important;
-}
-
 /* merubah font place holder */
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
